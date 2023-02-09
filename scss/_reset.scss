@@ -80,3 +80,13 @@ header,
 footer {
     background-color: $bg-color
 }
+
+@media (max-width: 480px) {
+    .logo {
+        margin: 0;
+        text-align: center;
+        img {
+            width: 300px;
+        }
+    }
+}

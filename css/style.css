@@ -81,6 +81,15 @@ footer {
   background-color: #ddd;
 }
 
+@media (max-width: 480px) {
+  .logo {
+    margin: 0;
+    text-align: center;
+  }
+  .logo img {
+    width: 300px;
+  }
+}
 .blocks {
   padding: 3rem 0;
 }
