@@ -1,9 +1,27 @@
+@use 'blocks';
+@mixin theme($theme: $color-01, $bg: $color-04) {
+    border: 1px solid $theme;
+    background-color: $bg-color;
+}
+
+.destacks {
+    @include theme;
+}
+
 .cars {
+    @extend %blocks;
     h2 {
         color: $color-04;
     }
     li {
+        @include theme($theme: $color-02, $bg: $bg-color);
         color: $color-04;
+        display: flex;
+        float: left;
+        height: max-content;
+        justify-content: center;
+        align-items: baseline;
+        flex-flow: column;
 
         a {
             background-color: $color-default;
