@@ -141,6 +141,7 @@ footer {
   color: #000;
   display: flex;
   float: left;
+  height: -moz-max-content;
   height: max-content;
   justify-content: center;
   align-items: baseline;
@@ -177,4 +178,6 @@ footer {
   color: #5e17eb;
   padding: 2rem 0;
   width: 100%;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
